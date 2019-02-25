@@ -1,0 +1,23 @@
+<html>
+<head>
+	<!-- include CSS and JavaScript files-->
+	<link type="text/css" rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="clock.js"></script> 
+</head>
+<!-- call loadClock function to load digital and analog clocks immediately after the page has been loaded-->
+<body onload="loadClock()">
+	<div class="container">
+		<!-- display area for digital clock-->
+		<h1 class="digital-clock" id="dc">00 : 00 : 00 AM </h1>
+		<!-- div for analog clock-->
+		<div class="clock">
+			<div class="hour-hand common" id="hour">
+			</div>
+			<div class="minute-hand common" id="min">
+			</div>
+			<div class="second-hand common" id="sec">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

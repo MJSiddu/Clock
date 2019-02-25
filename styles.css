@@ -1,0 +1,61 @@
+
+/* include clock, minut hand, second hand and hour hand images stored in inages folder*/
+/* clock properties */
+.clock
+{
+	margin-left: 350px;
+	position: relative;
+	background-image: url('images/clock.png');
+	width: 500px;
+	height: 500px;
+	background-size: contain;
+}
+
+/* properties that commonly apply to hour, minute and second hands */
+.common
+{
+	position: absolute;
+	transform-origin: 45% 95%;
+}
+
+/* digital clock element properties */
+.digital-clock{
+	margin-left:25%;
+	color: blue;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	white-space: nowrap;
+}
+
+/* hour hand properties */
+.hour-hand
+{
+	left: 241px;
+	top: 155px;
+	background-image: url('images/hour.png');
+	height: 100px;
+	width: 20px;
+	background-size: 20px 100px;
+}
+
+/* minute hand properties */
+.minute-hand
+{
+	left: 240px;
+	top: 80px;
+	background-image: url('images/min.png');
+	height: 180px;
+	width: 20px;
+	background-size: 20px 180px;
+}
+
+/* second hand properties */
+.second-hand
+{
+	left: 237px;
+	top: 80px;
+	background-image: url('images/second-hand.png');
+	height: 180px;
+	width: 30px;
+	background-size: 30px 180px;
+}
+
