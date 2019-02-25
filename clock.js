@@ -1,7 +1,7 @@
 function loadClock(){
   clock();
   // call clock function repeatedly after every second
-	setInterval(clock, 1000);
+  setInterval(clock, 1000);
 }
 
 function clock(){
