@@ -1,2 +1,2 @@
 # Clock
-Analog and Digital Clock using plain hTML, CSS and JavaScript
+Analog and Digital Clock using plain HTML, CSS and JavaScript
